@@ -28,7 +28,7 @@ warnings.filterwarnings('ignore')
 
 
 
-data = pd.read_excel(r"Dataset_for_test.xlsx")
+data = pd.read_excel("Dataset_for_test.xlsx")
 data = pd.DataFrame(data)
 data = prepare_data(data)
 
